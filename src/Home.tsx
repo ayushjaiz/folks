@@ -1,10 +1,12 @@
+import logo from '../public/images/main.png'; // with import
+
 export default function Home() {
     return (
         <main className="min-h-screen min-w-screen bg-[#b5c4a0] flex flex-col items-center justify-center">
             <div className="container mx-auto flex flex-col md:flex-row items-center justify-between gap-8 max-w-6xl">
                 <div className="w-full h-full md:w-2/5 flex justify-start">
                     <img
-                        src="../images/main.png"
+                        src={logo}
                         alt="Artistic illustration of overlapping faces representing mental health diversity"
                         width={600}
                         height={1000}
@@ -13,7 +15,7 @@ export default function Home() {
 
                 <div className="w-full md:w-3/5 text-right">
                     <p className="text-[#e07a5f] uppercase tracking-wider text-2xl font-garet font-bold">Launching Soon</p>
-                    <h1 className="text-[65px] text-white mt-8">
+                    <h1 className="text-5xl text-white mt-8">
                         A Mental Health Platform <br />
                         That <span className="text-[#e07a5f] underline decoration-white underline-offset-24">
                             Truly Cares
