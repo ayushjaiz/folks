@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,100..900;1,100..900&display=swap');
+
+@font-face {
+  font-family: 'Garet';
+  src: url('../public/fonts/Garet-Book.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Youngest';
+  src: url('../public/fonts/TYSerif-Book.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'Noto Serif Display Condensed';
+  src: url('../public/fonts/NotoSerif.ttf') format('ttf');
+}
+
+@import "tailwindcss";
+
+@theme {
+  --font-garet: 'Garet', sans-serif;
+  --font-youngest: 'Youngest', sans-serif;
+  --font-noto-condensed: 'Noto Serif Display Condensed', sans-serif;
+}
