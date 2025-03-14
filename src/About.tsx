@@ -26,7 +26,7 @@ export default function About() {
             <footer className="w-full bg-[#c2c5aa] py-4 px-6">
                 <div className="container mx-auto flex justify-between items-center">
                     <div className="flex items-center gap-4">
-                        <a href="https://instagram.com" className="text-[#5c5c42]">
+                        <a href="https://www.instagram.com/folksmentalhealth" className="text-[#5c5c42]">
                             <Instagram size={20} />
                         </a>
                         <a href="https://linkedin.com" className="text-[#5c5c42]">
